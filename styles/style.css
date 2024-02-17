@@ -1,0 +1,379 @@
+body{
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-primary{
+  color: #ff0000;
+}
+
+/* header section styles */
+.header{
+  height: 600px;
+  width: 1320px;
+  margin: 50px auto 100px;
+  background-image: url('../images/Banner\ Image.png'), linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* margin-top: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #afa9a9;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.banner-container{
+  max-width: 600px;
+}
+
+.banner-greeting {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: -30px;
+}
+
+.banner-title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+
+/* discount section styles */
+.discount-section {
+  width: 803px;
+  height: 806px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+  flex-direction: column;
+}
+
+.discount-container{
+  text-align: center;
+}
+
+.discount-offer {
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.discount-description {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.category {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.image {
+  margin-top: 80px; 
+}
+
+.image img {
+  max-width: 100%;
+}
+
+/* Midnight party section styles */
+.party-section{
+  background-image: url('../images/Vectorrr.png');
+  width: 1320px;
+  height: 600px;
+  margin: 150px auto; 
+}
+
+.party-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.party-content{
+  max-width: 600px;
+  text-align: left;
+  color: #fff;
+  margin-right: 126px;
+  margin-top: 55px;
+}
+
+.party-greeting {
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 12px;
+  margin-bottom: 0;
+}
+
+.party-description {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.party-join-btn, 
+.vanue-join-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 40px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.party-join-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Party Vanue section styles */
+.party-vanue{
+  width: 1320px;
+  height: 482px;
+  margin: 150px auto; 
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.vanue-container h3{
+  font-size: 32px;
+  font-weight: 600px;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.vanue-join-btn{
+  margin-top: 80px;
+  background-color: red;
+}
+.vanue-join-btn:hover{
+  background-color: #767373;
+  color: #000;
+}
+  
+/* New Best Offer Section Styles */
+.best-offer{
+  width: 1320px;
+  height: 463px;
+  margin: 150px auto; 
+}
+
+.best-offer-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.best-offer-details,
+.offer-celebration-img,
+.offer-year {
+  flex: 1;
+  padding: 20px;
+}
+
+.new-best-offer,
+.best-gifts{
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.coming-soon,
+.gift-item-title,
+.subscribe-title{
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.offer-description,
+.yearly-offer-description,
+.gift-item-description,
+.subscribe-description{
+  color: rgba(7, 2, 1, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.offer-celebration-img{
+  border: 15px solid #ff0000;
+  border-radius: 50%;
+  margin: 0 60px;
+}
+
+.offer-year{
+  margin-left: 40px;
+}
+
+.year{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 10px;
+}
+
+/* Gift items section styles */
+.gift-item-section{
+  width: 1320px;
+  height: 1163px;
+  margin: 150px auto;
+}
+
+.gift-item-container {
+  width: 100%;
+  max-width: 1320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gift-item-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+
+.gift-item-products img {
+  width: 424px;
+  height: 450px;
+  border: 1px dashed #888;
+}
+
+.gift-item-products >img:hover{
+  border: 5px solid #e5c6c6;
+  border-radius: 20px;
+  transition: step-start;
+  transition-duration: 2s;
+}
+
+/* Subscribe Section Styles */
+.subscribe{
+  width: 1320px;
+  height: 616px;
+  margin: 150px auto;
+  background-color: rgba(255, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.subscribe-description{
+  padding: 0 80px;
+  margin-top: 0;
+}
+
+.search-input{
+  border: none;
+  padding: 15px;
+  outline: none;
+  border-radius: 30px 0 0 30px;
+  font-size: 20px;
+  /* border: 1px solid green; */
+}
+
+.subscribe-btn{
+  border: none;
+  background-color: #ff0000;
+  padding: 15px 30px;
+  outline: none;
+  border-radius: 0 30px 30px 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* footer section styles */
+.footer-container{
+  width: 1600px;
+  height: 609px;
+  margin: 150px auto;
+  background: rgb(7, 2, 17);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-info{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.contact{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* margin-top: 200px; */
+  /* margin-left: 100px; */
+  
+}
+
+.address{
+  margin-bottom: 260px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.copyright{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.phone,
+.website{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.phone-icon,
+.web-icon {
+  margin-right: 10px;
+}
+
+.social-media-contacts{
+  padding: 40px 0;
+  display: flex;
+  gap: 30px;
+  width: 40%;
+  border-top: 1px solid #ffffff26;
+  border-bottom: 1px solid #ffffff26;
+  justify-content: center;
+}
+
+.unsubscribe{
+  margin-top: 300px;
+  margin-left: 200px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
